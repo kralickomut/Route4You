@@ -1,0 +1,86 @@
+####################################
+# OS
+####################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+####################################
+# IDEs
+####################################
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+/.fleet/
+
+####################################
+# Android / Kotlin / Gradle
+####################################
+.gradle/
+**/build/
+**/.gradle/
+local.properties
+*.apk
+*.aab
+*.keystore
+*.jks
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio cache
+**/.idea/caches/
+**/.idea/modules.xml
+**/.idea/workspace.xml
+**/.idea/navEditor.xml
+**/.idea/assetWizardSettings.xml
+
+####################################
+# Jetpack Compose
+####################################
+**/compose_compiler/
+**/.kotlin/
+
+####################################
+# .NET / ASP.NET Core
+####################################
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+.vs/
+
+# Rider
+.idea/.idea.*
+.idea/*
+
+####################################
+# ASP.NET Core secrets & env
+####################################
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+####################################
+# Logs
+####################################
+*.log
+logs/
+
+####################################
+# Test results
+####################################
+TestResults/
+
+####################################
+# Docker
+####################################
+docker-data/
+data/
+**/azurite/
+**/mongo-data/
