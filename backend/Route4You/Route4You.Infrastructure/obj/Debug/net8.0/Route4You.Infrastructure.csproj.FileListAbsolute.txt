@@ -1,0 +1,17 @@
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/bin/Debug/net8.0/Route4You.Infrastructure.deps.json
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/bin/Debug/net8.0/Route4You.Infrastructure.dll
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/bin/Debug/net8.0/Route4You.Infrastructure.pdb
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/bin/Debug/net8.0/Route4You.Application.dll
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/bin/Debug/net8.0/Route4You.Domain.dll
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/bin/Debug/net8.0/Route4You.Application.pdb
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/bin/Debug/net8.0/Route4You.Domain.pdb
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/obj/Debug/net8.0/Route4You.Infrastructure.csproj.AssemblyReference.cache
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/obj/Debug/net8.0/Route4You.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/obj/Debug/net8.0/Route4You.Infrastructure.AssemblyInfoInputs.cache
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/obj/Debug/net8.0/Route4You.Infrastructure.AssemblyInfo.cs
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/obj/Debug/net8.0/Route4You.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/obj/Debug/net8.0/Route4Yo.EE5CA676.Up2Date
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/obj/Debug/net8.0/Route4You.Infrastructure.dll
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/obj/Debug/net8.0/refint/Route4You.Infrastructure.dll
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/obj/Debug/net8.0/Route4You.Infrastructure.pdb
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/obj/Debug/net8.0/ref/Route4You.Infrastructure.dll

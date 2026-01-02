@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "SbEg0csffjM=",
+  "success": true,
+  "projectFilePath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/Route4You.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/frantisekhromek/.nuget/packages/mongodb.bson/3.5.0/mongodb.bson.3.5.0.nupkg.sha512",
+    "/Users/frantisekhromek/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/frantisekhromek/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/frantisekhromek/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/frantisekhromek/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

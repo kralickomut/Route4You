@@ -1,0 +1,341 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.API/Route4You.API.csproj": {}
+  },
+  "projects": {
+    "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.API/Route4You.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.API/Route4You.API.csproj",
+        "projectName": "Route4You.API",
+        "projectPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.API/Route4You.API.csproj",
+        "packagesPath": "/Users/frantisekhromek/.nuget/packages/",
+        "outputPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/frantisekhromek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/Users/frantisekhromek/RiderProjects/GetmoreSystemCore/Getmore.GetmoreSystemCore/ExternalNugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/Route4You.Infrastructure.csproj": {
+                "projectPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/Route4You.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Application/Route4You.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Application/Route4You.Application.csproj",
+        "projectName": "Route4You.Application",
+        "projectPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Application/Route4You.Application.csproj",
+        "packagesPath": "/Users/frantisekhromek/.nuget/packages/",
+        "outputPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/frantisekhromek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/Users/frantisekhromek/RiderProjects/GetmoreSystemCore/Getmore.GetmoreSystemCore/ExternalNugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/Route4You.Domain.csproj": {
+                "projectPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/Route4You.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/Route4You.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/Route4You.Domain.csproj",
+        "projectName": "Route4You.Domain",
+        "projectPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/Route4You.Domain.csproj",
+        "packagesPath": "/Users/frantisekhromek/.nuget/packages/",
+        "outputPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/frantisekhromek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/Users/frantisekhromek/RiderProjects/GetmoreSystemCore/Getmore.GetmoreSystemCore/ExternalNugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/Route4You.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/Route4You.Infrastructure.csproj",
+        "projectName": "Route4You.Infrastructure",
+        "projectPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/Route4You.Infrastructure.csproj",
+        "packagesPath": "/Users/frantisekhromek/.nuget/packages/",
+        "outputPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/frantisekhromek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/Users/frantisekhromek/RiderProjects/GetmoreSystemCore/Getmore.GetmoreSystemCore/ExternalNugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Application/Route4You.Application.csproj": {
+                "projectPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Application/Route4You.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.26.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[10.0.0-rc.2.25502.107, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[10.0.0-rc.2.25502.107, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

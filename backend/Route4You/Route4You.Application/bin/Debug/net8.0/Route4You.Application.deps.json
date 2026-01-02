@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Route4You.Application/1.0.0": {
+        "dependencies": {
+          "Route4You.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Route4You.Application.dll": {}
+        }
+      },
+      "MongoDB.Bson/3.5.0": {
+        "runtime": {
+          "lib/net6.0/MongoDB.Bson.dll": {
+            "assemblyVersion": "3.5.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      },
+      "Route4You.Domain/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "3.5.0"
+        },
+        "runtime": {
+          "Route4You.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Route4You.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MongoDB.Bson/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JGNK6BanLDEifgkvPLqVFCPus5EDCy416pxf1dxUBRSVd3D9+NB3AvMVX190eXlk5/UXuCxpsQv7jWfNKvppBQ==",
+      "path": "mongodb.bson/3.5.0",
+      "hashPath": "mongodb.bson.3.5.0.nupkg.sha512"
+    },
+    "Route4You.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

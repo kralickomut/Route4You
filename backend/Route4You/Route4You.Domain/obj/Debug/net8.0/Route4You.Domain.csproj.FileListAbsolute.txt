@@ -1,0 +1,12 @@
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/bin/Debug/net8.0/Route4You.Domain.deps.json
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/bin/Debug/net8.0/Route4You.Domain.dll
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/bin/Debug/net8.0/Route4You.Domain.pdb
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/obj/Debug/net8.0/Route4You.Domain.csproj.AssemblyReference.cache
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/obj/Debug/net8.0/Route4You.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/obj/Debug/net8.0/Route4You.Domain.AssemblyInfoInputs.cache
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/obj/Debug/net8.0/Route4You.Domain.AssemblyInfo.cs
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/obj/Debug/net8.0/Route4You.Domain.csproj.CoreCompileInputs.cache
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/obj/Debug/net8.0/Route4You.Domain.dll
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/obj/Debug/net8.0/refint/Route4You.Domain.dll
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/obj/Debug/net8.0/Route4You.Domain.pdb
+/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/obj/Debug/net8.0/ref/Route4You.Domain.dll
