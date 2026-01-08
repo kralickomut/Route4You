@@ -39,6 +39,9 @@ public sealed class RouteService : IRouteService
 
 		await this._routes.AddAsync(route, ct);
 
+		var idsToInc = area.PathIds.Append(area.Id).ToList();
+		await this._areas.IncrementRoutesCountManyAsync(idsToInc, ct);
+
 		return MapToVm(route);
 	}
 
@@ -73,5 +76,48 @@ public sealed class RouteService : IRouteService
 			r.CreatedAt,
 			r.UpdatedAt
 		);
+	}
+
+	public async Task IncrementAscentCountAsync(string routeId, CancellationToken ct)
+	{
+		var route = await this._routes.GetAsync(routeId, ct)
+		            ?? throw new InvalidOperationException($"Route '{routeId}' not found.");
+
+		await this._routes.IncrementAscentCountAsync(routeId, ct);
+	}
+
+	public async Task<RouteVm> UpdateAsync(UpdateRouteDto dto, CancellationToken ct)
+	{
+		var existing = await this._routes.GetAsync(dto.Id, ct)
+		               ?? throw new InvalidOperationException($"Route '{dto.Id}' not found.");
+
+		await this._routes.UpdateFieldsAsync(
+			dto.Id,
+			dto.Name,
+			dto.Grade,
+			dto.Pitches,
+			dto.LengthMeters,
+			dto.Style,
+			dto.Tags ?? new List<string>(),
+			dto.DefaultPhotoId,
+			ct
+		);
+
+		var updated = await this._routes.GetAsync(dto.Id, ct) ?? existing;
+		return MapToVm(updated);
+	}
+	
+	public async Task DeleteAsync(string id, CancellationToken ct)
+	{
+		var route = await this._routes.GetAsync(id, ct)
+		            ?? throw new InvalidOperationException($"Route '{id}' not found.");
+
+		await this._routes.DeleteAsync(id, ct);
+
+		var area = await this._areas.GetAsync(route.AreaId, ct)
+		           ?? throw new InvalidOperationException($"Area '{route.AreaId}' not found.");
+
+		var idsToDecr = area.PathIds.Append(area.Id).ToList();
+		await this._areas.DecrementRoutesCountManyAsync(idsToDecr, ct);
 	}
 }

@@ -1,4 +1,5 @@
 using Route4You.Application.Abstraction.Ascents;
+using Route4You.Application.Abstraction.Routes;
 using Route4You.Application.DataTransfers.Ascents;
 using Route4You.Domain.Ascents;
 
@@ -7,10 +8,12 @@ namespace Route4You.Application.Services;
 public sealed class AscentService : IAscentService
 {
 	private readonly IAscentRepository _ascents;
+	private readonly IRouteRepository _routes;
 
-	public AscentService(IAscentRepository ascents)
+	public AscentService(IAscentRepository ascents, IRouteRepository routes)
 	{
 		this._ascents = ascents;
+		this._routes = routes;
 	}
 
 	public async Task<AscentVm> RecordAsync(RecordAscentDto dto, CancellationToken ct)
@@ -19,9 +22,9 @@ public sealed class AscentService : IAscentService
 		var existing = await this._ascents.GetAsync(ascentId, ct);
 
 		Ascent ascent;
+
 		if (existing is null)
 		{
-			// create new
 			ascent = Ascent.Create(
 				dto.UserId,
 				dto.RouteId,
@@ -32,14 +35,19 @@ public sealed class AscentService : IAscentService
 			);
 
 			await this._ascents.AddAsync(ascent, ct);
+
+			await this._routes.IncrementAscentCountAsync(dto.RouteId, ct);
 		}
 		else
 		{
-			// update existing
 			existing.Update(dto.DateClimbed, dto.Style, dto.Rating, dto.Notes);
 			await this._ascents.UpdateAsync(existing, ct);
 			ascent = existing;
 		}
+
+		// rating stats update
+		var stats = await this._ascents.GetRatingStatsForRouteAsync(dto.RouteId, ct);
+		await this._routes.SetRatingStatsAsync(dto.RouteId, stats.Avg, stats.Count, ct);
 
 		return MapToVm(ascent);
 	}

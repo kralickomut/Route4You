@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SbEg0csffjM=",
+  "dgSpecHash": "DZxwc3jyORk=",
   "success": true,
-  "projectFilePath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/Route4You.Domain.csproj",
+  "projectFilePath": "/Users/frantisekhromek/RiderProjects/Route4You_Solution/backend/Route4You/Route4You.Domain/Route4You.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/frantisekhromek/.nuget/packages/mongodb.bson/3.5.0/mongodb.bson.3.5.0.nupkg.sha512",
     "/Users/frantisekhromek/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",

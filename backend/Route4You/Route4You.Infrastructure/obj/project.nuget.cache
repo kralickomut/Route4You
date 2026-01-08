@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ylAXdQApQR0=",
+  "dgSpecHash": "HlJcUZTQtFk=",
   "success": true,
-  "projectFilePath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Infrastructure/Route4You.Infrastructure.csproj",
+  "projectFilePath": "/Users/frantisekhromek/RiderProjects/Route4You_Solution/backend/Route4You/Route4You.Infrastructure/Route4You.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/frantisekhromek/.nuget/packages/azure.core/1.47.3/azure.core.1.47.3.nupkg.sha512",
     "/Users/frantisekhromek/.nuget/packages/azure.storage.blobs/12.26.0/azure.storage.blobs.12.26.0.nupkg.sha512",
@@ -56,8 +56,8 @@
     "/Users/frantisekhromek/.nuget/packages/system.text.encodings.web/10.0.0-rc.2.25502.107/system.text.encodings.web.10.0.0-rc.2.25502.107.nupkg.sha512",
     "/Users/frantisekhromek/.nuget/packages/system.text.json/10.0.0-rc.2.25502.107/system.text.json.10.0.0-rc.2.25502.107.nupkg.sha512",
     "/Users/frantisekhromek/.nuget/packages/zstdsharp.port/0.7.3/zstdsharp.port.0.7.3.nupkg.sha512",
-    "/Users/frantisekhromek/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
-    "/Users/frantisekhromek/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512"
+    "/Users/frantisekhromek/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/frantisekhromek/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }

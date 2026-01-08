@@ -52,4 +52,30 @@ public sealed class AscentRepository : IAscentRepository
 
 		return await this._col.Find(filter).AnyAsync(ct);
 	}
+
+	public async Task<RouteRatingStats> GetRatingStatsForRouteAsync(string routeId, CancellationToken ct)
+	{
+		// avg + count jen z dokumentů kde Rating != null
+		var agg = await this._col.Aggregate()
+			.Match(a => a.RouteId == routeId && a.Rating != null)
+			.Group(
+				key => key.RouteId,
+				g => new
+				{
+					Avg = g.Average(x => (double)x.Rating!),
+					Count = g.Count()
+				}
+			)
+			.FirstOrDefaultAsync(ct);
+
+		return agg is null
+			? new RouteRatingStats(null, 0)
+			: new RouteRatingStats(agg.Avg, agg.Count);
+	}
+
+	public Task DeleteByRouteIdsAsync(IReadOnlyList<string> routeIds, CancellationToken ct)
+	{
+		var filter = Builders<Ascent>.Filter.In(a => a.RouteId, routeIds);
+		return this._col.DeleteManyAsync(filter, ct);
+	}
 }

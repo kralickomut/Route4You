@@ -10,4 +10,11 @@ public interface IAscentRepository
 	
 	Task<IReadOnlyList<Ascent>> GetByUserAsync(string userId, CancellationToken ct = default);
 	Task<bool> ExistsForUserAndRouteAsync(string userId, string routeId, CancellationToken ct = default);
+	
+	Task<RouteRatingStats> GetRatingStatsForRouteAsync(string routeId, CancellationToken ct);
+	
+	Task DeleteByRouteIdsAsync(IReadOnlyList<string> routeIds, CancellationToken ct);
+
 }
+
+public sealed record RouteRatingStats(double? Avg, int Count);

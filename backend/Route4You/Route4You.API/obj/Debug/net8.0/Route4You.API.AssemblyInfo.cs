@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Route4You.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59912d70670d636c8b7a71dd1b785d21cf8ed69b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Route4You.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Route4You.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

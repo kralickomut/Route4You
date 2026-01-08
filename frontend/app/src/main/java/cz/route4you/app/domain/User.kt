@@ -1,4 +1,7 @@
 package cz.route4you.app.domain
 
-class User {
-}
+data class User(
+    val id: String,
+    val displayName: String,
+    val email: String
+)

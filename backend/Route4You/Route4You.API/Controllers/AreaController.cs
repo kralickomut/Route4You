@@ -28,4 +28,30 @@ public sealed class AreasController : ControllerBase
 		var vm = await this._service.GetAsync(id, ct);
 		return vm is null ? this.NotFound() : this.Ok(vm);
 	}
+
+	[HttpGet]
+	public async Task<ActionResult<IReadOnlyList<AreaVm>>> GetChildren(
+		[FromQuery] string? parentId,
+		CancellationToken ct)
+	{
+		var list = await this._service.GetChildrenAsync(parentId, ct);
+		return this.Ok(list);
+	}
+
+	[HttpPut("{id}")]
+	public async Task<ActionResult<AreaVm>> Update(string id, [FromBody] UpdateAreaDto dto, CancellationToken ct)
+	{
+		if (dto.Id != id) return this.BadRequest("Id mismatch.");
+
+		var vm = await this._service.UpdateAsync(dto, ct);
+		return this.Ok(vm);
+	}
+
+	[HttpDelete("{id}")]
+	public async Task<IActionResult> Delete(string id, CancellationToken ct)
+	{
+		await this._service.DeleteRecursiveAsync(id, ct); // delete
+		await this._service.RebuildCountsAsync(ct); // bruteforce sync
+		return this.NoContent();
+	}
 }

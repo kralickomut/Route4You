@@ -35,4 +35,20 @@ public sealed class RoutesController : ControllerBase
 		var list = await this._service.GetByAreaAsync(areaId, ct);
 		return this.Ok(list);
 	}
+
+	[HttpPut("{id}")]
+	public async Task<ActionResult<RouteVm>> Update(string id, [FromBody] UpdateRouteDto dto, CancellationToken ct)
+	{
+		if (dto.Id != id) return this.BadRequest("Id mismatch.");
+
+		var vm = await this._service.UpdateAsync(dto, ct);
+		return this.Ok(vm);
+	}
+
+	[HttpDelete("{id}")]
+	public async Task<IActionResult> Delete(string id, CancellationToken ct)
+	{
+		await this._service.DeleteAsync(id, ct);
+		return this.NoContent();
+	}
 }

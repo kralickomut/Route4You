@@ -148,11 +148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Application/Route4You.Application.csproj",
+      "projectUniqueName": "/Users/frantisekhromek/RiderProjects/Route4You_Solution/backend/Route4You/Route4You.Application/Route4You.Application.csproj",
       "projectName": "Route4You.Application",
-      "projectPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Application/Route4You.Application.csproj",
+      "projectPath": "/Users/frantisekhromek/RiderProjects/Route4You_Solution/backend/Route4You/Route4You.Application/Route4You.Application.csproj",
       "packagesPath": "/Users/frantisekhromek/.nuget/packages/",
-      "outputPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Application/obj/",
+      "outputPath": "/Users/frantisekhromek/RiderProjects/Route4You_Solution/backend/Route4You/Route4You.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/frantisekhromek/.nuget/NuGet/NuGet.Config"
@@ -168,8 +168,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/Route4You.Domain.csproj": {
-              "projectPath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.Domain/Route4You.Domain.csproj"
+            "/Users/frantisekhromek/RiderProjects/Route4You_Solution/backend/Route4You/Route4You.Domain/Route4You.Domain.csproj": {
+              "projectPath": "/Users/frantisekhromek/RiderProjects/Route4You_Solution/backend/Route4You/Route4You.Domain/Route4You.Domain.csproj"
             }
           }
         }

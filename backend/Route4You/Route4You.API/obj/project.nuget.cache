@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z0+aySM0y8w=",
+  "dgSpecHash": "/sbYb5us3eo=",
   "success": true,
-  "projectFilePath": "/Users/frantisekhromek/RiderProjects/Route4You/Route4You.API/Route4You.API.csproj",
+  "projectFilePath": "/Users/frantisekhromek/RiderProjects/Route4You_Solution/backend/Route4You/Route4You.API/Route4You.API.csproj",
   "expectedPackageFiles": [
     "/Users/frantisekhromek/.nuget/packages/azure.core/1.47.3/azure.core.1.47.3.nupkg.sha512",
     "/Users/frantisekhromek/.nuget/packages/azure.storage.blobs/12.26.0/azure.storage.blobs.12.26.0.nupkg.sha512",
